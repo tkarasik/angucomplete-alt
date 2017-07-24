@@ -611,9 +611,8 @@
           scope.results = [];
         }
 
-        if (scope.autoMatch && scope.results.length === 1 &&
-            checkExactMatch(scope.results[0],
-              {title: text, desc: description || ''}, scope.searchStr)) {
+        if (scope.autoMatch && scope.results.length === 1) {
+          scope.selectResult(scope.results[0]);
           scope.showDropdown = false;
         } else if (scope.results.length === 0 && !displayNoResults) {
           scope.showDropdown = false;
@@ -649,6 +648,9 @@
       };
 
       scope.hideResults = function() {
+        if (scope.results.length > 0 && scope.currentIndex === 0) {
+          scope.selectResult(scope.results[0]);
+        }
         if (mousedownOn &&
             (mousedownOn === scope.id + '_dropdown' ||
              mousedownOn.indexOf('angucomplete') >= 0)) {

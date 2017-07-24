@@ -1,9 +1,9 @@
 {
-  "name": "angucomplete-alt",
-  "version": "3.0.0",
-  "homepage": "http://ghiden.github.io/angucomplete-alt/",
+  "name": "angucomplete-alt-tk",
+  "version": "3.0.1",
+  "homepage": "https://github.com/tkarasik/angucomplete-alt-tk",
   "authors": [
-    "Hidenari Nozaki <hidenari@gmail.com>"
+    "Tomer Karasik"
   ],
   "description": "Autocomplete directive for AngularJS",
   "keywords": [
