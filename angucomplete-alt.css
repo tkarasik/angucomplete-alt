@@ -8,6 +8,11 @@
     border-style: solid;
     border-radius: 2px;
     width: 250px;
+<<<<<<< HEAD
+=======
+    max-height: 300px;
+    overflow-y: auto;
+>>>>>>> 9254c69a8dd7f252a6b07d4ce2e3afe4025bce23
     padding: 6px 0px;
     cursor: pointer;
     z-index: 9999;
@@ -64,4 +69,12 @@
     background-size: contain;
     height: 34px;
     width: 34px;
+}
+
+.highlight {
+    font-weight: 700;
+}
+
+#searchPageLocation input {
+    font-size: 16px;
 }
