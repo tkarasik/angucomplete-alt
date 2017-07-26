@@ -1,12 +1,12 @@
 {
-  "name": "angucomplete-alt",
+  "name": "angucomplete-alt-tk",
   "version": "3.0.0",
   "description": "Awesome Autocompleteness for AngularJS",
-  "author": "ghiden",
-  "email": "hidenari@gmail.com",
+  "author": "Tomer Karasik",
+  "email": "tomer@qazoom.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ghiden/angucomplete-alt.git"
+    "url": "https://github.com/tkarasik/angucomplete-alt-tk"
   },
   "engines": {
     "node": ">= 0.8.4"
