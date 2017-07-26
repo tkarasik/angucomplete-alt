@@ -1,6 +1,10 @@
 {
   "name": "angucomplete-alt-tk",
+<<<<<<< HEAD
   "version": "3.0.1",
+=======
+  "version": "1.0.0",
+>>>>>>> 3f169a676083a4b13d1a89a8aea5c53b247215ce
   "homepage": "https://github.com/tkarasik/angucomplete-alt-tk",
   "authors": [
     "Tomer Karasik"
